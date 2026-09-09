@@ -5,8 +5,8 @@
 @media (max-width: 1100px) {
 
   .why-amanah {
-      padding: 120px 5%;
-  }
+    padding: 70px 0px;
+}
 
   .why-amanah__inner {
       gap: 5%;
@@ -37,12 +37,14 @@
 }
 
 .section-label {
-    margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .quote {
-    font-size: 48px;
-    letter-spacing: -1.5px;
+  font-size: 40px;
+  letter-spacing: -1.5px;
+  max-width: 100%;
+  margin-bottom: 30px;
 }
 
 .testimonial-bottom {
@@ -51,6 +53,93 @@
 
 .slider-controls {
     width: 450px;
+}
+section.banner {
+  height: 50vh;
+}
+.inner-banner h1 {
+  font-size: 60px;
+}
+section.who-we {
+  padding: 80px 0;
+} 
+.who-width1 h2 {
+  font-size: 50px;
+}
+.we-are {
+  margin-top: 50px;
+}
+.we-width {
+  padding: 30px 20px;
+}
+.we-width h3 {
+  font-size: 40px;
+}
+.we-width:nth-child(4) h3,.we-width:nth-child(3) h3 {
+  font-size: 30px;
+}
+.we-width p {
+  margin-top: 5px;
+}
+.heading-width h2 {
+  font-size: 46px;
+}
+.our-projects {
+  margin-top: 30px;
+}
+.spot-width h2 {
+  font-size: 46px;
+}
+.spot-width p {
+  margin: 15px 0;
+}
+section.project-spotlight {
+  padding: 50px 0;
+
+}
+.chairmen-width1 h2 {
+  font-size: 45px;
+}
+.chairmen-width1 h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+section.chairmen-message {
+  padding: 70px 0;
+}
+section.amanah-eco-system {
+  padding: 70px 0;
+}
+.inner-data h3 {
+  margin: 20px 0 20px;
+  font-size: 48px;
+}
+.inner-widh h2 {
+  font-size: 56px;
+}
+section.invest-with {
+  height: 480px;
+}
+.blogs-flex {
+  margin-top: 40px;
+}
+section.blogs {
+  padding: 40px 0 50px;
+}
+.contact-width h2 {
+  font-size: 60px;
+}
+.info-list {
+  margin-top: 30px;
+}
+section.contact {
+  padding: 70px 0;
+}
+.form-width input, .text-area textarea {
+  padding: 10px 0 10px;
+}
+.maps-im {
+  margin-top: 30px;
 }
 }
 @media (max-width:992px) {
@@ -125,7 +214,7 @@
     .headerHamburger button span {
       position: relative;
       display: block;
-      background: #1E2F97;
+      background: #9a7551;
       width: 35px;
       height: 2px;
       margin-bottom: 5px;
@@ -144,7 +233,7 @@
               transform: rotate(45deg);
     }
     .headerHamburger button.active span {
-      background: #0E3EE7;
+      background: #9a7551;
     }
     .headerHamburger button.active span:nth-child(1) {
       display: none;
@@ -191,6 +280,149 @@
 #mobile-btn{
   display: block!important;
 }
+.inner-banner h1 {
+  font-size: 50px;
+  line-height: normal;
+}
+section.banner {
+  height: 80vh;
+}
+.who-width1 h2 {
+  font-size: 38px;
+}
+.who-content p {
+  margin: 15px 0 0;
+}
+.we-width h3 {
+  font-size: 34px;
+}
+.we-width:nth-child(4) h3, .we-width:nth-child(3) h3 {
+  font-size: 22px;
+}
+section.who-we {
+  padding: 50px 0;
+}
+.heading-width h2 {
+  font-size: 38px;
+}
+.rights-pro:nth-child(2) {
+  margin-top: 20px;
+}
+.projects-width3:nth-child(1) {
+  left: 50px;
+}
+.projects-width3:nth-child(2) {
+  right: 50px;
+}
+section.our-project {
+  padding-bottom: 50px;
+}
+.spot-width h2 {
+  font-size: 32px;
+}
+.spot-width p {
+  max-width: 100%;
+}
+span.orange {
+  margin-bottom: 10px;
+}
+.spot-width span.black {
+  margin-bottom: 10px;
+  display: block;
+}
+.why-amanah__intro h2 {
+  font-size: 38px;
+}
+.feature:nth-child(3), .feature:nth-child(4) {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.feature__content h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.chairmen-flex {
+  flex-wrap: wrap;
+}
+.chairmen-width {
+  width: 60%;
+}
+.chairmen-width1 {
+  width: 100%;
+}
+.chairmen-width1 {
+  margin-top: 30px;
+}
+span.quote {
+  margin-top: 1.2rem;
+}
+
+.chairmen-width1 h3 {
+  margin: 15px 0;
+  max-width: 100%;
+}
+.chairmen-width1 .custom-btns a {
+  margin-top: 20px;
+}
+
+section.amanah-eco-system {
+  padding: 40px 0;
+}
+.heading-width h2 {
+  font-size: 34px;
+}
+.tabbing-width:nth-child(2) {
+  padding: 0px 20px;
+}
+.inner-data h3 {
+  margin: 10px 0 5px;
+  font-size: 32px;
+  line-height: normal;
+}
+ul.tabs li {
+  padding: 22px 20px;
+}
+.inner-widh h2 {
+  font-size: 40px;
+}
+.inner-widh h2 {
+  margin: 15px 0;
+}
+section.invest-with {
+  height: 400px;
+  background-size: auto;
+}
+.testimonial-slider {
+  padding: 50px 10px 20px;
+}
+.quote {
+  font-size: 34px;
+}
+.blogs-content h4 {
+  font-size: 18px;
+}
+.contact-width h2 {
+  font-size: 46px;
+}
+.form-width label, .text-area label {
+  margin-bottom: 0px;
+}
+section.contact {
+  padding: 50px 0;
+}
+footer.footer {
+  padding-top: 50px;
+}
+.footer-flex {
+  margin-bottom: 30px;
+}
+nav#nav ul li a {
+  color: #282224;
+}
+
+
+
+
 
 }
 
@@ -307,5 +539,168 @@
     width: 55px;
     height: 55px;
     font-size: 28px;
+}
+.inner-banner h1 {
+  font-size: 40px;
+}
+.inner-banner p {
+  max-width: 100%;
+}
+.btns-flx {
+  display: block;
+}
+.scroll-to a {
+  top: 130px;
+}
+.who-flex {
+  flex-wrap: wrap;
+}
+
+.who-width {
+  width: 100%;
+}
+
+.who-width1 {
+  width: 100%;
+}
+
+.who-content {
+  flex-wrap: wrap;
+}
+.who-width1 h2 {
+  font-size: 32px;
+}
+.who-width {
+  margin-bottom: 50px;
+}
+.who-content p{
+  max-width: 100%;
+  margin: 15px 0;
+}
+.we-width {
+  width: 50%;
+  border: 1px solid #28222429;
+}
+.we-width:last-child{
+  border: 1px solid #28222429;
+}
+.heading-flex {
+  flex-wrap: wrap;
+}
+
+.heading-width {
+  width: 100%;
+}
+
+.heading-width1 {
+  margin-top: 20px;
+}
+.demo-btn a, a.demo-btn {
+  padding: 0px 10px;
+}
+.our-projects {
+  flex-wrap: wrap;
+}
+
+.projects-width {
+  width: 100%;
+}
+
+.inner-pro {
+  height: auto;
+}
+
+.projects-width1 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.projects-width3:nth-child(1),.projects-width3:nth-child(2) {
+  width: 100%;
+  left: 0;
+}
+
+.projects-width3:nth-child(1) {
+  margin-bottom: 20px;
+}
+.spot-width1 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.spot-width1 {
+  width: 100%;
+}
+
+.spot-width,.chairmen-width,.tabbing-width {
+  width: 100%;
+}
+.chairmen-width::after, .spot-width1::after{
+    right: -5px;
+    top: -5px;
+}
+.why-amanah {
+  padding: 40px 10px;
+}
+.section-label {
+  margin-bottom: 20px;
+}
+.why-amanah__intro h2 br {
+  display: none;
+}
+section.chairmen-message {
+  padding: 40px 0;
+}
+.chairmen-width1 h2 {
+  font-size: 32px;
+}
+.chairmen-width1 h3 {
+  font-size: 22px;
+  line-height: 36px;
+}
+section.invest-with {
+  height: 520px;
+  background-size: auto;
+}
+.inner-flexs {
+  flex-wrap: wrap;
+}
+
+.inner-widh,.heading-width,.heading-width,.blogs-width {
+  width: 100%;
+}
+
+.inner-widh1 {
+  width: 100%;
+  margin-top: 40px;
+}
+.testimonial-slider {
+  padding: 50px 5px 50px;
+}
+.quote {
+  font-size: 30px;
+  line-height: 1.18;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+.custom-btns a{
+  display: inline-flex;
+}
+.blogs-content p {
+  min-height: 2.5rem;
+}
+.contact-flex {
+  flex-wrap: wrap;
+}
+
+.contact-width,.contact-width1,.footer-width1,.footer-width {
+  width: 100%;
+}
+.footer-width {
+  margin-top: 30px;
+}
+.bottom-footer {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 }
