@@ -43,10 +43,6 @@ $(document).ready(function () {
     })
 
 });
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
 
     const slides = document.querySelectorAll(".testimonial-slide");
@@ -137,5 +133,55 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Initial state
     showSlide(currentIndex);
+
+});
+var swiper = new Swiper('.mySwiper', {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+});
+
+var swiper2 = new Swiper('.mySwiper2', {
+    loop: true,
+    spaceBetween: 10,
+
+    speed: 1000,
+
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    thumbs: {
+        swiper: swiper,
+    },
+
+});
+
+
+
+document.querySelectorAll('.faq-question').forEach(function (question) {
+
+    question.addEventListener('click', function () {
+
+        const currentItem = this.closest('.faq-item');
+
+        document.querySelectorAll('.faq-item').forEach(function (item) {
+            if (item !== currentItem) {
+                item.classList.remove('active');
+            }
+        });
+
+        currentItem.classList.toggle('active');
+
+    });
 
 });
